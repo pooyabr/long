@@ -1,0 +1,103 @@
+body {
+  background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(160,216,239,1) 25%,rgba(160,216,239,1) 25%,rgba(254,255,255,1) 29%);
+}
+
+main {
+  position: relative;
+  height: 10000px;
+  /*border: 3px dashed lightblue;*/
+  }
+
+.MyClass{
+  background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(160,216,239,1) 25%,rgba(160,216,239,1) 25%,rgba(254,255,255,1) 29%);
+
+}
+
+  #cloud1 {
+    position: absolute;
+    height: 950px;
+    width: 12000px;
+    /*border: red 2px dashed;*/
+    top:200px;
+    left:350px;
+    background: url("../img/cloud1.png");
+
+  }
+  #cloud2 {
+    left:600px;
+    position: absolute;
+    height: 1000px;
+    width: 12000px;
+    /*border: red 2px dashed;*/
+        background: url("../img/cloud2.png");
+
+  }
+
+  #cloud3 {
+    left:600px;
+    position: absolute;
+    height: 850px;
+    width: 12000px;
+    /*border: red 2px dashed;*/
+    top:600px;
+    left: -2200px;
+    background: url("../img/cloud3.png");
+
+  }
+
+
+#character {
+  position: absolute;
+  height: 650px;
+  width: 400px;
+  /*border: red 2px dashed;*/
+  top:200px;
+  background: url("../img/characterfall.png");
+}
+#bg1{
+    /*
+border: lime 2px dashed;*/
+background-color: #242424;
+  position: absolute;
+  top: 1500px;
+  height: 700px;
+  width: 14500px;
+  background: url("../img/sidewalk.svg");
+}
+
+#dog{
+  position: absolute;
+  background: url("../img/dog.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 600px;
+  left:150px;
+  top:600px;
+}
+
+
+#hole{
+  position: absolute;
+  background: url("../img/hole.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 600px;
+  top:580px;
+  left:5300px;
+
+}
+
+
+
+
+
+#ground{
+  position: absolute;
+  background: url("../img/ground.png");
+  background-repeat: repeat-x;
+  height: 500px;
+  width: 10000px;
+  top:580px;
+  left:000px;
+
+}
