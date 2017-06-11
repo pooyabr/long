@@ -1,3 +1,29 @@
+window.onscroll = colorchange;
+function colorchange() {
+document.getElementById(ck).classlist.add=("ck");
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*function containpic() {
   var h = window.innerHeight;
   var w = window.innerWidth;

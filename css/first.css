@@ -1,11 +1,29 @@
-.a {
+#eye{
+  transition: opacity 4s;
+  background: url("../img/eye.png");
+  background-repeat: repeat-x;
+  width: 200px;
+  height: 150px;
+  opacity: 0;
   position: fixed;
-  height: 15px;
-  width: 15px;
-  background-color: lime;
+  left: 40vw;
+  top: 25vh;
 }
-body {
-  background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(160,216,239,1) 25%,rgba(160,216,239,1) 25%,rgba(254,255,255,1) 29%);
+
+#body {
+  transition: .3s ;
+}
+
+#dog {
+    transition: left .5s ;
+  }
+
+
+#sky {
+  width: 50000px;
+      height: 1500px;
+        background: url("../img/sky.png");
+        background-repeat: repeat-x;
 }
 
 main {
@@ -14,14 +32,9 @@ main {
   /*border: 3px dashed lightblue;*/
   }
 
-.MyClass{
-  background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(160,216,239,1) 25%,rgba(160,216,239,1) 25%,rgba(254,255,255,1) 29%);
-
-}
-
   #cloud1 {
     position: absolute;
-    height: 950px;
+    height: 1200px;
     width: 12000px;
     /*border: red 2px dashed;*/
     top:200px;
@@ -32,7 +45,7 @@ main {
   #cloud2 {
     left:600px;
     position: absolute;
-    height: 1000px;
+    height: 1050px;
     width: 12000px;
     /*border: red 2px dashed;*/
         background: url("../img/cloud2.png");
@@ -42,10 +55,10 @@ main {
   #cloud3 {
     left:600px;
     position: absolute;
-    height: 850px;
+    height: 1250px;
     width: 12000px;
     /*border: red 2px dashed;*/
-    top:600px;
+    top:0px;
     left: -2200px;
     background: url("../img/cloud3.png");
 
